@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		VERSION = '2.0.2'
+		VERSION = '3.0.2'
 		DOCKERHUB_CREDENTIALS = credentials('docker-tdye4-credentials')
 	}
 	stages {
